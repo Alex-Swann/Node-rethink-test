@@ -1,0 +1,33 @@
+2016-06-27T19:10:18.836491000 0.354405s notice: Recursively removing directory /Users/Alex_Swann/Documents/RUBY/Makers_Academy/Week6/Node-rethink-test/thinky-api-example/rethinkdb_data/tmp
+2016-06-27T19:10:18.842271000 0.360189s notice: Initializing directory /Users/Alex_Swann/Documents/RUBY/Makers_Academy/Week6/Node-rethink-test/thinky-api-example/rethinkdb_data
+2016-06-27T19:10:18.842417000 0.360329s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/Alex_Swann/Documents/RUBY/Makers_Academy/Week6/Node-rethink-test/thinky-api-example/rethinkdb_data' did not already exist or is empty.)
+2016-06-27T19:10:18.842455000 0.360367s notice: Running rethinkdb 2.3.4 (CLANG 7.3.0 (clang-703.0.29))...
+2016-06-27T19:10:18.897603000 0.415516s notice: Running on Darwin 15.4.0 x86_64
+2016-06-27T19:10:18.897682000 0.415594s notice: Loading data from directory /Users/Alex_Swann/Documents/RUBY/Makers_Academy/Week6/Node-rethink-test/thinky-api-example/rethinkdb_data
+2016-06-27T19:10:19.799883000 1.317796s info: Automatically using cache size of 100 MB
+2016-06-27T19:10:19.799909000 1.317821s warn: Cache size does not leave much memory for server and query overhead (available memory: 455 MB).
+2016-06-27T19:10:19.799917000 1.317829s warn: Cache size is very low and may impact performance.
+2016-06-27T19:10:19.800998000 1.318910s error: TCP socket creation failed for port 29015: Address already in use.
+2016-06-27T19:10:44.429933000 0.063275s notice: Running rethinkdb 2.3.4 (CLANG 7.3.0 (clang-703.0.29))...
+2016-06-27T19:10:44.459311000 0.092650s notice: Running on Darwin 15.4.0 x86_64
+2016-06-27T19:10:44.459455000 0.092793s notice: Loading data from directory /Users/Alex_Swann/Documents/RUBY/Makers_Academy/Week6/Node-rethink-test/thinky-api-example/rethinkdb_data
+2016-06-27T19:10:44.574063000 0.207402s info: Automatically using cache size of 100 MB
+2016-06-27T19:10:44.574080000 0.207418s warn: Cache size does not leave much memory for server and query overhead (available memory: 427 MB).
+2016-06-27T19:10:44.574090000 0.207428s warn: Cache size is very low and may impact performance.
+2016-06-27T19:10:44.578109000 0.211447s notice: Listening for intracluster connections on port 29015
+2016-06-27T19:10:44.584026000 0.217364s notice: Listening for client driver connections on port 28015
+2016-06-27T19:10:44.584257000 0.217594s notice: Listening for administrative HTTP connections on port 8080
+2016-06-27T19:10:44.584259000 0.217597s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-06-27T19:10:44.584264000 0.217601s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-06-27T19:10:44.584265000 0.217603s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-06-27T19:10:44.584269000 0.217607s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-06-27T19:10:44.584273000 0.217611s notice: Server ready, "Alexanders_MacBook_Air_2_local_sb0" 7c3b9ea8-0e40-41dc-9197-73a2bc9db8ea
+2016-06-27T19:12:50.542556000 126.173040s info: Table f19e0b69-5a3f-46db-ac74-979ce8cbe3c9: Starting a new Raft election for term 1.
+2016-06-27T19:12:50.542997000 126.173477s info: Table f19e0b69-5a3f-46db-ac74-979ce8cbe3c9: Added replica on this server.
+2016-06-27T19:12:50.641335000 126.271815s info: Table f19e0b69-5a3f-46db-ac74-979ce8cbe3c9: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-27T19:12:52.547498000 128.177934s info: Table f19e0b69-5a3f-46db-ac74-979ce8cbe3c9: Configuration is changing.
+2016-06-27T19:27:07.157759000 982.768841s notice: Server got SIGINT from pid 5070, uid 501; shutting down...
+2016-06-27T19:27:07.158374000 982.769456s notice: Shutting down client connections...
+2016-06-27T19:27:07.172766000 982.783847s notice: All client connections closed.
+2016-06-27T19:27:07.172789000 982.783870s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-06-27T19:27:07.191027000 982.802108s notice: Storage engine shut down.
